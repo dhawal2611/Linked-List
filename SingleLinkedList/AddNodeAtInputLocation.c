@@ -13,7 +13,7 @@ Student *SAddNodeAtInputLocation (Student *Head) {
 
     printf("Enter Roll No.: ");
     scanf("%d", &TakeDataNode->RollNo);
-    printf("Enter Roll Number, After which it should be inserted: ");
+    printf("Enter Roll No. after which node should be inserted: ");
     scanf("%d", &iRollToAddAfterIt);
 
     TakeDataNode->next = NULL;
@@ -25,8 +25,7 @@ Student *SAddNodeAtInputLocation (Student *Head) {
         iCnt++;
     }
     printf("Total Number of nodes available are: %d\n", iCnt);
-    ItrNode = Head;    printf("Total Number of nodes avber given\nPlease enter vaild Roll Num..\n\n");
-
+    ItrNode = Head;
     for(int iItr = 0; iItr < iCnt; iItr++) {
         if(ItrNode->RollNo == iRollToAddAfterIt) {
             TakeDataNode->next = ItrNode->next;
@@ -35,6 +34,6 @@ Student *SAddNodeAtInputLocation (Student *Head) {
         }
         ItrNode = ItrNode->next;
     }
-    printf("Total Number of nodes avber given\nPlease enter vaild Roll Num..\n\n");
+    printf("No node found with the Roll Number given\nPlease enter vaild Roll Num..\n\n");
     return Head;
 }

@@ -16,5 +16,6 @@ Student *SAddNodeAtMiddle (Student *Head);
 Student *SDeletFirstNode (Student *Head);
 Student *SAddNodeAtInputLocation (Student *Head);
 Student *vDeletLastNode(Student *Head);
+Student *SDeletNodeByInputLocation(Student *Head);
 
 #endif

@@ -6,9 +6,10 @@ void vPrintOptions() {
     2. Print all Nodes\n \
     3. Add Node at Begin\n \
     4. Add Node at Middle\n \
-    5. Add Node at Input Location\n \
+    5. Add Node After Input Roll Number\n \
     6. Delet 1st Node\n \
     7. Delet Last Node\n \
+    8. Delet Node by Roll Number\n \
     128. Exit the code\n");
 }
 
@@ -42,6 +43,9 @@ int main() {
                 break;
             case 7:
                 S1 = vDeletLastNode(S1);
+                break;
+            case 8:
+                S1 = SDeletNodeByInputLocation(S1);
                 break;
             case 128:
                 printf("Exiting the code\n");
