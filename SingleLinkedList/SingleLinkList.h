@@ -11,7 +11,10 @@ typedef struct SLL {
 
 Student *SAddNodeAtEnd (Student *Head);
 void vPrintSingleLinkList(Student *Head);
-Student *SAddAtBegin (Student *Head);
+Student *SAddNodeAtBegin (Student *Head);
+Student *SAddNodeAtMiddle (Student *Head);
 Student *SDeletFirstNode (Student *Head);
+Student *SAddNodeAtInputLocation (Student *Head);
+Student *vDeletLastNode(Student *Head);
 
 #endif

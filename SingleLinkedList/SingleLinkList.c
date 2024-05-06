@@ -5,7 +5,10 @@ void vPrintOptions() {
     1. Add Node at Last\n \
     2. Print all Nodes\n \
     3. Add Node at Begin\n \
-    4. Delet 1st Node\n \
+    4. Add Node at Middle\n \
+    5. Add Node at Input Location\n \
+    6. Delet 1st Node\n \
+    7. Delet Last Node\n \
     128. Exit the code\n");
 }
 
@@ -26,10 +29,19 @@ int main() {
                 vPrintSingleLinkList(S1);
                 break;
             case 3:
-                S1 = SAddAtBegin(S1);
+                S1 = SAddNodeAtBegin(S1);
                 break;
             case 4:
+                S1 = SAddNodeAtMiddle(S1);
+                break;
+            case 5:
+                S1 = SAddNodeAtInputLocation(S1);
+                break;
+            case 6:
                 S1 = SDeletFirstNode(S1);
+                break;
+            case 7:
+                S1 = vDeletLastNode(S1);
                 break;
             case 128:
                 printf("Exiting the code\n");

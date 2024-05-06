@@ -1,7 +1,7 @@
 
 #include "SingleLinkList.h"
 
-Student *SAddAtBegin (Student *Head) {
+Student *SAddNodeAtBegin (Student *Head) {
     Student *TakeDataNode;
 
     TakeDataNode = calloc(1, sizeof(struct SLL));
