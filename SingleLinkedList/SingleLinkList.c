@@ -10,6 +10,7 @@ void vPrintOptions() {
     6. Delet 1st Node\n \
     7. Delet Last Node\n \
     8. Delet Node by Roll Number\n \
+    9. Search Roll Number and print its details\n \
     128. Exit the code\n");
 }
 
@@ -46,6 +47,9 @@ int main() {
                 break;
             case 8:
                 S1 = SDeletNodeByInputLocation(S1);
+                break;
+            case 9:
+                vSearchAnElementInList(S1);
                 break;
             case 128:
                 printf("Exiting the code\n");
