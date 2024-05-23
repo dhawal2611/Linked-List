@@ -11,6 +11,7 @@ void vPrintOptions() {
     7. Delet Last Node\n \
     8. Delet Node by Roll Number\n \
     9. Search Roll Number and print its details\n \
+    10. Sort the list data\n \
     128. Exit the code\n");
 }
 
@@ -50,6 +51,9 @@ int main() {
                 break;
             case 9:
                 vSearchAnElementInList(S1);
+                break;
+            case 10:
+                S1 = SSortList(S1);
                 break;
             case 128:
                 printf("Exiting the code\n");
