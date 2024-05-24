@@ -9,6 +9,7 @@
         "in.h": "c",
         "inet.h": "c",
         "ioctl.h": "c",
-        "singlelinklist.h": "c"
+        "singlelinklist.h": "c",
+        "doublelinklist.h": "c"
     }
 }
