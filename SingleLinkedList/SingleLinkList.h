@@ -19,5 +19,6 @@ Student *vDeletLastNode(Student *Head);
 Student *SDeletNodeByInputLocation(Student *Head);
 void vSearchAnElementInList(Student *Head);
 Student *SSortList(Student *Head);
+Student *SReverseList(Student *Head);
 
 #endif

@@ -13,6 +13,7 @@ void vPrintOptions() {
     9. Search Roll Number and print its details\n \
     10. Sort the list data\n \
     11. Print LinkList in reverse order\n \
+    12. Reverse the list data\n \
     128. Exit the code\n");
 }
 
@@ -58,6 +59,9 @@ int main() {
                 break;
             case 10:
                 S1 = SSortList(S1);
+                break;
+            case 12:
+                S1 = SReverseList(S1);
                 break;*/
             case 128:
                 printf("Exiting the code\n");
